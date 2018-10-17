@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_main"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        tools:context="com.example.android.quiz.MainActivity">
+
+        <TextView
+            style="@style/mainHead"
+            android:text="@string/mainHead"/>
+        <View
+            android:layout_width="350dp"
+            android:layout_height="2dp"
+            android:background="@android:color/black"
+            android:layout_gravity="center" />
+
+        <TextView
+            style="@style/QuestionTextStyle"
+            android:paddingTop="25dp"
+            android:text="@string/one" />
+        <RadioGroup
+            style="@style/radioGroup">
+            <RadioButton
+                style="@style/AnswerTextStyle"
+                android:id="@+id/latin_radiobutton"
+                android:text="Latin"/>
+            <RadioButton
+                style="@style/AnswerTextStyle"
+                android:id="@+id/greek_radiobutton"
+                android:text="Greek"/>
+            <RadioButton
+                style="@style/AnswerTextStyle"
+                android:id="@+id/arabic_radiobutton"
+                android:text="Arabic"/>
+        </RadioGroup>
+
+        <TextView
+            style="@style/QuestionTextStyle"
+            android:paddingTop="16dp"
+            android:text="@string/two" />
+        <RadioGroup
+            style="@style/radioGroup">
+            <RadioButton
+                style="@style/AnswerTextStyle"
+                android:id="@+id/light_radiobutton"
+                android:text="Light"/>
+            <RadioButton
+                style="@style/AnswerTextStyle"
+                android:id="@+id/electric_radiobutton"
+                android:text="Electric"/>
+            <RadioButton
+                style="@style/AnswerTextStyle"
+                android:id="@+id/motion_radiobutton"
+                android:text="Motion"/>
+        </RadioGroup>
+
+        <TextView
+            style="@style/QuestionTextStyle"
+            android:paddingTop="16dp"
+            android:text="@string/three" />
+        <RadioGroup
+            style="@style/radioGroup">
+            <RadioButton
+                style="@style/AnswerTextStyle"
+                android:id="@+id/sugar_radiobutton"
+                android:text="Sugar"/>
+            <RadioButton
+                style="@style/AnswerTextStyle"
+                android:id="@+id/fat_radiobutton"
+                android:text="Fat"/>
+            <RadioButton
+                style="@style/AnswerTextStyle"
+                android:id="@+id/protein_radiobutton"
+                android:text="Protein"/>
+        </RadioGroup>
+
+        <TextView
+            style="@style/QuestionTextStyle"
+            android:paddingTop="16dp"
+            android:text="@string/four" />
+        <CheckBox
+            style="@style/AnswerTextStyle"
+            android:id="@+id/salt"
+            android:text="Salt"/>
+        <CheckBox
+            style="@style/AnswerTextStyle"
+            android:id="@+id/oxygen"
+            android:text="Oxygen"/>
+        <CheckBox
+            style="@style/AnswerTextStyle"
+            android:id="@+id/glucose"
+            android:text="Glucose"/>
+
+        <TextView
+            style="@style/QuestionTextStyle"
+            android:paddingTop="16dp"
+            android:text="@string/five" />
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ans5"/>
+
+        <TextView
+            style="@style/QuestionTextStyle"
+            android:paddingTop="16dp"
+            android:text="@string/six" />
+        <RadioGroup
+            style="@style/radioGroup">
+            <RadioButton
+                style="@style/AnswerTextStyle"
+                android:id="@+id/photo_radiobutton"
+                android:text="Photoautotrophs"/>
+            <RadioButton
+                style="@style/AnswerTextStyle"
+                android:id="@+id/meta_radiobutton"
+                android:text="Metatrophs"/>
+            <RadioButton
+                style="@style/AnswerTextStyle"
+                android:id="@+id/hydro_radiobutton"
+                android:text="Hydrotrophs"/>
+        </RadioGroup>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="20dp"
+                android:backgroundTint="#78909C"
+                android:onClick="result"
+                android:text="Get result" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</ScrollView>

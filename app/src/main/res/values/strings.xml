@@ -1,0 +1,19 @@
+<resources xmlns:xliff='urn:oasis:names:tc:xliff:document:1.2'>
+    <string name="app_name">Quiz</string>
+    <!--Header text for the topic of the quiz [CHAR LIMIT= None] -->
+    <string name= "mainHead">What do you know about PHOTOSYNTHESIS ?</string>
+    <!-- Text of first question. [CHAR LIMIT=None] -->
+    <string name="one">1) Where did the name photosynthesis come from?</string>
+    <!--Text of second question. [CHAR LIMIT= None] -->
+    <string name="two">2) In photosynthesis, which energy is converted to chemical energy ?</string>
+    <!--Text of third question. [CHAR LIMIT= None] -->
+    <string name="three">3) In which form this chemical energy is stored ?</string>
+    <!--Text of fourth question. [CHAR LIMIT= None] -->
+    <string name="four">4) What we  get as product or products in this reaction ?</string>
+    <!--Text of fifth question. [CHAR LIMIT= None] -->
+    <string name="five">5) What is needed for this reaction ?</string>
+    <!--Text of sixth question. [CHAR LIMIT= None] -->
+    <string name="six">6) What is the name of Photosynthetic organisms ?</string>
+
+</resources>
+
